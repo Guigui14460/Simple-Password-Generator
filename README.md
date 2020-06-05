@@ -34,5 +34,5 @@ You can use the program from 2 ways :
 - you can just pass the arguments to the command when you call it :
 
 ````bash
-passwordgenerator.exe <length:int> <number_of_digits:int> <number_of_symbols:int> <allow_uppercase:(false|true)> <allow_repeat:(false|true)>```
-````
+passwordgenerator.exe <length:int> <number_of_digits:int> <number_of_symbols:int> <allow_uppercase:(false|true)> <allow_repeat:(false|true)>
+```
