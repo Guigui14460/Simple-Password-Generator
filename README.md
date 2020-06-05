@@ -33,5 +33,6 @@ You can use the program from 2 ways :
 - you can just open the binary file which open an interactive program;
 - you can just pass the arguments to the command when you call it :
 
-````bash
+```bash
 passwordgenerator.exe <length:int> <number_of_digits:int> <number_of_symbols:int> <allow_uppercase:(false|true)> <allow_repeat:(false|true)>
+```
