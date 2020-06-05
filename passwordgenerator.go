@@ -293,8 +293,7 @@ func main() {
 	} else { // Not use an interactive program
 		// Use arguments and verify if all the arguments are specified
 		if len(args) != 3 && len(args) != 5 {
-			fileWithoutExt := strings.Split(os.Args[0], ".")[0]
-			fmt.Printf("Usage : %s.exe <length> <minimum_number_of_digits> <minimum_number_of_symbols> <allow_uppercase:(false|true)> <allow_repeat:(false|true)>", fileWithoutExt)
+			fmt.Printf("Usage : %s <length> <number_of_digits> <number_of_symbols> <allow_uppercase:(false|true)> <allow_repeat:(false|true)>", os.Args[0])
 			fmt.Println("allow_uppercase and allow_repeat are optional (default is true)")
 			os.Exit(2)
 		}
