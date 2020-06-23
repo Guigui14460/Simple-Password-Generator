@@ -14,16 +14,16 @@ Creation of a simple password generator usable in command line.
 
 You can run the program directly with :
 
-```bash
-go run passwordgenerator.go
+```shell
+$ go run passwordgenerator.go
 ```
 
 ## Executable binary program
 
 You can run the followig command :
 
-```bash
-go build passwordgenerator.go
+```shell
+$ go build passwordgenerator.go
 ```
 
 ## Usage
@@ -33,6 +33,6 @@ You can use the program from 2 ways :
 - you can just open the binary file which open an interactive program;
 - you can just pass the arguments to the command when you call it :
 
-```bash
-passwordgenerator.exe <length:int> <number_of_digits:int> <number_of_symbols:int> <allow_uppercase:(false|true)> <allow_repeat:(false|true)>
+```shell
+$ passwordgenerator.exe <length:int> <number_of_digits:int> <number_of_symbols:int> <allow_uppercase:(false|true)> <allow_repeat:(false|true)>
 ```
