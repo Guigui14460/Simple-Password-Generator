@@ -1,4 +1,4 @@
-# Simple-Password-Generator
+# Simple password generator
 
 Creation of a simple password generator usable in command line.
 
